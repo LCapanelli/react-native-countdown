@@ -7,7 +7,7 @@ import {
   TouchableHighlight,
 } from 'react-native';
 import DateTimePicker from 'react-native-modal-datetime-picker';
-import { formatDateTime } from './api';
+import { saveEvent, formatDateTime } from './api';
 
 
 const styles = StyleSheet.create({
